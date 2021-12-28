@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "https",
+    "description": "Forces HTTPS on requests",
+    "version": "0.1",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    }
+}
